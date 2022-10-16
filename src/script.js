@@ -6,6 +6,7 @@ const clock = new THREE.Clock()
 
 // console.log("dat:", dat);
 const gui = new dat.GUI({ width: 360 })
+gui.closed = true
 
 // Scene
 const scene = new THREE.Scene()
